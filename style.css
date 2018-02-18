@@ -9,7 +9,7 @@ ul {
 }
 
 
-/* Header and navigation */
+/* /////// Header and navigation ///// */
 header {
     background: red;
     height: 105px;
@@ -86,7 +86,6 @@ header #customer-acct ul li {
     height: 700px;
     padding: 0 30px 0 30px;
     margin: 0 60px 0 60px;
-    /* border: 1px solid green; */
 }
 
 #main #img-box {
@@ -95,11 +94,9 @@ header #customer-acct ul li {
     height: 50%;
     margin-top: 15px;
     display: inline-block;
-    /* border: 1px solid red; */
 }
 
 #main #img-box .box-text {
-    /* border: 1px solid yellow; */
     display: inline-block;
     width: 310px;
     height: 100px;
@@ -109,13 +106,10 @@ header #customer-acct ul li {
 
 #main #img-box .box-text p {
     padding-top: 40px;
-    color: #fff;
     color: #000;
 }
 
 #main #log-in {
-    display: inline-block;
-    border: 1px solid blue;
     float: right;
     height: 95%;
     width: 35%;
@@ -129,6 +123,7 @@ header #customer-acct ul li {
     background: red; 
 }
 
+/* //// Log-in Header //// */
 #log-in #log-in-title {
     background: firebrick;
     height: 10%;
@@ -139,6 +134,7 @@ header #customer-acct ul li {
     padding-top: 25px;
 }
 
+/* //// Main Log-in Block /////  */
 #log-in #user-info {
     background-color: darksalmon;
     height: 48%;
@@ -180,6 +176,7 @@ header #customer-acct ul li {
     line-height: 2em;
 }
 
+/* //// New Registration Sidebar //// */
 #log-in #registration {
     height: 15%;
     border-top: 1px solid white;
@@ -209,6 +206,7 @@ header #customer-acct ul li {
     right: 15%;
 }
 
+/* //// Member Alerts Sidebar //// */
 #log-in #alerts {
     height: 24.7%;
     border-top: 1px solid white;
@@ -225,18 +223,17 @@ header #customer-acct ul li {
     margin-top: 20px;
 }
 
-#log-in #alerts div h4, p, a {
-    padding-top: 10px;
+#log-in #alerts p, a {
+    padding-top: 5px;
 }
 
 #log-in #alerts div p {
     width: 90%;
 }
 
-
 /* ///// Rewards Card Section ///// */
 #rewards-card {
-    margin-top: 40px;
+    margin-top: 25px;
     width: 64%;
     height: 30%;
     background: green;
@@ -249,12 +246,29 @@ header #customer-acct ul li {
     float: left;
 }
 
+#rewards-card #rewards-box #checks {
+    position: absolute;
+    left: 9%;
+    top: 38%;
+}
+
+.fa-check-square {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
 #rewards-card h2, h3 {
     margin: 10px 0 0 30px;
 }
 
+#rewards-card ul {
+    position: absolute;
+    left: 13%;
+    top: 36%;
+}
+
 #rewards-card ul li {
-    margin: 10px 0 0 102px;
+  line-height: 1.93em;
 }
 
 #rewards-card button {
@@ -267,10 +281,55 @@ header #customer-acct ul li {
 
 #rewards-card img {
     width: 190px;
-    margin: -36px 40px 0 0;
+    height: 230px;
+    margin: -20px 40px 0 0;
     float: right;
 }
 
-/* ///// Products Section ///// */
-#products
 
+/* ///// Products Section ///// */
+#products {
+    margin-top: 13px;
+    width: 64%;
+    height: 70px;
+    background: cadetblue;
+}
+
+#products h3 {
+    text-align: center;
+    color: red;
+    padding-top: 5px;    
+}
+
+#products ul {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#products ul li {
+    display: inline;
+    font-size: 2em;
+    margin: 0 30px 0 30px;
+}
+
+#products a {
+    color: red;
+}
+
+
+
+
+footer {
+    background: orange;
+    height: 200px;
+    margin-top: 60px;
+    position: relative;
+}
+
+footer div {
+    background: green;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
