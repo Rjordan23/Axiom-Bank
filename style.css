@@ -64,6 +64,7 @@ header #customer-acct ul li {
     color: #fff;
 }
 
+
 /* //// Divider //// */
 #divider {
     background: #D3D2D7;
@@ -78,6 +79,7 @@ header #customer-acct ul li {
 #divider p {
     padding: 20px 0 0 100px;
 }
+
 
 /* ///// main ///// */
 #main {
@@ -99,8 +101,8 @@ header #customer-acct ul li {
 #main #img-box .box-text {
     /* border: 1px solid yellow; */
     display: inline-block;
-    width: 20%;
-    height:30%;
+    width: 310px;
+    height: 100px;
     text-align: center;
     background-color: rgba(0, 0, 0, .3);
 }
@@ -108,6 +110,7 @@ header #customer-acct ul li {
 #main #img-box .box-text p {
     padding-top: 40px;
     color: #fff;
+    color: #000;
 }
 
 #main #log-in {
@@ -118,6 +121,7 @@ header #customer-acct ul li {
     width: 35%;
     margin-top: 15px;
 }
+
 
 /* ///// Log-in Section //// */
 #log-in #topper { 
@@ -217,35 +221,56 @@ header #customer-acct ul li {
     left: 14%;
 }
 
+#log-in #alerts div h4 {
+    margin-top: 20px;
+}
+
 #log-in #alerts div h4, p, a {
     padding-top: 10px;
 }
 
 #log-in #alerts div p {
-    /* border: 1px solid red; */
     width: 90%;
 }
 
-/* //// Account Extras Sections //// */
-#account-benefits {
-    border: 1px solid red;
-    margin-top: 10px;
+
+/* ///// Rewards Card Section ///// */
+#rewards-card {
+    margin-top: 40px;
     width: 64%;
     height: 30%;
+    background: green;
     position: relative;
 }
 
-#account-benefits #rewards-box {
-    width: 60%;
+#rewards-card #rewards-box {
+    width: 370px;
+    height: 100%;
+    float: left;
 }
 
-#account-benefits h2, h3 {
+#rewards-card h2, h3 {
     margin: 10px 0 0 30px;
 }
 
-#account-benefits ul li {
+#rewards-card ul li {
     margin: 10px 0 0 102px;
-
 }
 
+#rewards-card button {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#rewards-card img {
+    width: 190px;
+    margin: -36px 40px 0 0;
+    float: right;
+}
+
+/* ///// Products Section ///// */
+#products
 
