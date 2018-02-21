@@ -226,7 +226,8 @@ header #customer-acct a:hover {
     left: 15%;
     display: inline-block;
     top: 45%;
-    color: #000000;
+    color: #284B63;
+    font-weight: 550;
 }
 
 #log-in #registration div button {
@@ -241,7 +242,7 @@ header #customer-acct a:hover {
 }
 
 #log-in #registration div button:hover {
-    background-color: #153243;
+    background-color: #284B63;
 }
 
 /* //// Member Alerts Sidebar //// */
@@ -257,7 +258,7 @@ header #customer-acct a:hover {
     position: absolute;
     top: 10%;
     left: 15%;
-    color: #A31621;
+    color: #153243;
 }
 
 #log-in #alerts p {
@@ -272,14 +273,14 @@ header #customer-acct a:hover {
     bottom: 15%;
     left: 15%;
     font-weight: 600;
-    color: #A31621;
+    color: #153243;
 }
 
 #log-in #alerts .fa-chevron-circle-right {
     position: absolute;
     bottom: 16%;
     right: 46%;
-    color: #A31621;
+    color: #153243;
 }
 
 #log-in #alerts div p {
@@ -368,7 +369,7 @@ header #customer-acct a:hover {
 }
 
 #rewards-card button:hover {
-    background-color: #153243;
+    background-color: #284B63;
 }
 
 #rewards-card #model {
@@ -382,7 +383,7 @@ header #customer-acct a:hover {
 
 /* ///// Products Section ///// */
 #products {
-    margin-top: 13px;
+    margin-top: 10px;
     width: 64%;
     height: 70px;
     background-color: #153243;
@@ -514,7 +515,6 @@ footer h5 {
 
 #btm-bar li {
     display: inline;
-   
     margin: 0 10px 0 10px;
 }
 
