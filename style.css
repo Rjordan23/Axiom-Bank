@@ -946,15 +946,15 @@ footer h5 {
         transition: all .5s ease-in-out;
         height: 25px;
         float: right;
+        background-color: transparent;
     }
 
-    
-header ul li {
-    display: none;
-}
-
-    header #navbar {
-    display: none;
+    header #navbar li {
+        transition: all .5s ease-in-out;
+        display: block;
+        margin: 0;
+        padding: 0;
+        line-height: 1.5em;
     }
 
     header #customer-acct a {
@@ -965,7 +965,7 @@ header ul li {
         transition: all .5s ease-in-out;
         font-size: 3.5em;
         top: 20%;
-        left: 10%;
+        right: 50%;
     }
     
     #main {
@@ -991,12 +991,15 @@ header ul li {
     }
 
     #log-in #user-info form {
+        transition: all .5s ease-in-out;
         left: 5%;
     }
 
     #log-in #user-info form button {
-        width: 115px;
-        padding: 5px 5px;
+        transition: all .5s ease-in-out;
+        width: 100px;
+        padding: 15px 5px;
+        font-size: 12px;
     }
 
     #log-in #user-info form {
@@ -1022,20 +1025,31 @@ header ul li {
     #log-in #lost-info {
         transition: all .5s ease-in-out;
         line-height: 1em;
-        left: 50%;
-
+        left: 40%;
+        bottom: 15%;
     }
 
     #log-in #registration div button {
         transition: all .5s ease-in-out;
         position: absolute;
         right: 20%;
-        top: 20%;
+        bottom: 15%;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    #log-in #registration div p {
+        transition: all .5s ease-in-out;
+        position: absolute;
+        left: 5%;
+        font-size: 12px;
+        bottom: 10%;
     }
 
     #log-in #alerts p {
         transition: all .5s ease-in-out;
         left: 10%;
+        font-size: 12px;
         margin-top: 5px;
     }
 
@@ -1049,12 +1063,11 @@ header ul li {
     transition: all .5s ease-in-out;
     margin-top: -15px;
     width: 100%;
-    height: 20%;
+    height: 30%;
     }    
 
     #rewards-card #rewards-box #boxes, #rewards-card #rewards-box #checks {
-        left: 5%;
-        transition: all .5s ease-in-out;
+        display: none;
     }
 
     #rewards-card h2 {
@@ -1064,19 +1077,25 @@ header ul li {
 
     #rewards-card ul {
         transition: all .5s ease-in-out;
-        left: 10%;
+        left: 5%;
+        top: 35%;
     }
 
     #rewards-card button {
         transition: all .5s ease-in-out;
-        left: 50%;
+        left: 60%;
+        top: 50%;
+        padding: 10px 10px;
     }
 
     #rewards-card #model {
         transition: all .5s ease-in-out;
-        width: 190px;
-        height: 243px;
-        right: 0;
+        display: none;
+    }
+
+    #rewards-card ul li {
+        transition: all .5s ease-in-out;
+        line-height: 1.8em;
     }
 
     /* ///// Products Section ///// */
@@ -1085,9 +1104,14 @@ header ul li {
         width: 100%;
     }
 
+    products ul {
+        transition: all .5s ease-in-out;
+        text-align: left;
+    }
+
     #products ul li {
         transition: all .5s ease-in-out;
-        margin: 0 25px 
+        margin: 0 5px; 
     }
 
 /* /////////////// */
@@ -1098,13 +1122,13 @@ header ul li {
 
     footer h5 {
         transition: all .5s ease-in-out;
-        font-size: 13px;
+        font-size: 9px;
     }
 
 
     .btm-box-one {
         transition: all .5s ease-in-out;
-        left: 2%;
+        left: 1%;
     }
 
     .btm-box-one a {
@@ -1115,12 +1139,12 @@ header ul li {
     .btm-box-two {
         transition: all .5s ease-in-out;
         width: 25%;
-        left: 25%;
+        left: 30%;
     }
 
     .btm-box-two p {
         transition: all .5s ease-in-out;
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .btm-box-three {
@@ -1134,9 +1158,16 @@ header ul li {
     }
 
     .btm-box-four {
+        text-align: center;
         transition: all .5s ease-in-out;
-        right: 2%;
+        right: 1%;
         width: 20%;
+    }
+
+    .btm-box-four p {
+        transition: all .5s ease-in-out;
+        font-size: 10px;
+        margin-bottom: 0;
     }
 
     #btm-bar p {
@@ -1153,17 +1184,21 @@ header ul li {
     /* //// ////// */
     #btm-bar ul {
         transition: all .5s ease-in-out;
-        margin: 10px 0;
+        margin: 0 0;
     }
 
     #btm-bar li  {
         transition: all .5s ease-in-out;
-        margin: 0 2px;
+        margin: 0 0;
+    }
+
+    #btm-bar a {
+        display: none;
     }
 
     #btm-bar p {
         transition: all .5s ease-in-out;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
