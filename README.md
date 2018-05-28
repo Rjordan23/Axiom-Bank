@@ -1,3 +1,3 @@
-This was my first attempt to recreate an actual website from scratch. No tutorials at this point. I wanted to look at the page, break it down in my head then put it into code. In all this is close to 95% the same as the orginal site minus the main image slider, color scheme, and some icons.
+This early project was to recreate an actual website from scratch. I wanted to look at the page, break it down in my head then put it into code. In all this is close to 95% the same as the orginal site minus the main image slider, color scheme, and some icons.
 In the intrest of time I went with font awesome instead or trying to recreate the icons in photoshop. My goal was not to create an exact replica. The goal was to start being able to look at a design, understand the elements, and see them for what they are instead of one giant page.
 Minus the transition effect the page scales down to tablets and moble viewing exactly the same as the original site I used for reference. 
